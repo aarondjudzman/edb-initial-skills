@@ -1,0 +1,14 @@
+name: edb-initial-skills
+version: 0.1.0
+description: EDB workflow skills for planning, design, TDD, Figma, and Shortcut.
+author: aarondjudzman
+targets:
+- agent-skills
+- codex
+dependencies:
+  apm: []
+  mcp: []
+includes: auto
+devDependencies:
+  apm: []
+scripts: {}

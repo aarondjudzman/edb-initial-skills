@@ -1,0 +1,22 @@
+{
+  "name": "edb-initial-skills",
+  "owner": {
+    "name": "aarondjudzman",
+    "url": "https://github.com/aarondjudzman"
+  },
+  "plugins": [
+    {
+      "name": "edb-initial-skills",
+      "description": "EDB workflow skills for planning, design, TDD, Figma, and Shortcut.",
+      "tags": [
+        "skills",
+        "planning",
+        "design",
+        "tdd",
+        "figma",
+        "shortcut"
+      ],
+      "source": "./plugins/edb-initial-skills"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "edb-initial-skills",
+  "interface": {
+    "displayName": "edb-initial-skills"
+  },
+  "plugins": [
+    {
+      "name": "edb-initial-skills",
+      "source": {
+        "source": "local",
+        "path": "./plugins/edb-initial-skills"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

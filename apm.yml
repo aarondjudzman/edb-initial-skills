@@ -1,0 +1,19 @@
+name: edb-initial-skills
+version: 0.1.0
+description: Installable APM plugin for EDB agent skills
+author: aarondjudzman
+marketplace:
+  owner:
+    name: aarondjudzman
+    url: https://github.com/aarondjudzman
+  build:
+    tagPattern: "v{version}"
+  outputs:
+    claude: {}
+    codex: {}
+  packages:
+    - name: edb-initial-skills
+      source: ./plugins/edb-initial-skills
+      description: EDB workflow skills for planning, design, TDD, Figma, and Shortcut.
+      category: Productivity
+      tags: [skills, planning, design, tdd, figma, shortcut]
