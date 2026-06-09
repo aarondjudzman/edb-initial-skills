@@ -2,17 +2,25 @@
 
 This repository packages the skills in `.github/skills/` as one APM-installable plugin.
 
+The installable source lives under `.apm/skills/`, which is the canonical APM primitive layout.
+
 ## Direct Install
 
 Install the plugin from a local checkout:
 
 ```sh
-apm install ./plugins/edb-initial-skills --target codex
+apm install . --target codex
+```
+
+From another repository, install the package directly:
+
+```sh
+apm install aarondjudzman/edb-initial-skills --target codex
 ```
 
 ## Marketplace Artifacts
 
-The root `apm.yml` is an APM marketplace authoring config that indexes the local plugin under `plugins/edb-initial-skills`.
+The root `apm.yml` is also an APM marketplace authoring config that indexes this repository as one plugin.
 
 Regenerate marketplace artifacts after changing plugin metadata:
 

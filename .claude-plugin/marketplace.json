@@ -16,7 +16,7 @@
         "figma",
         "shortcut"
       ],
-      "source": "./plugins/edb-initial-skills"
+      "source": "./"
     }
   ]
 }

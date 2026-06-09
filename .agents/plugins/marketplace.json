@@ -8,7 +8,7 @@
       "name": "edb-initial-skills",
       "source": {
         "source": "local",
-        "path": "./plugins/edb-initial-skills"
+        "path": "./"
       },
       "policy": {
         "installation": "AVAILABLE",
